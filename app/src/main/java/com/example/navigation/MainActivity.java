@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
     private RatingBar ratingApps;
     private LinearLayout mailControls;
     private CheckBox checkBoxCopy;
-    private Button buttonSend;
     private EditText editTextEmail;
 
     @Override
@@ -39,13 +38,13 @@ public class MainActivity extends AppCompatActivity {
         ratingApps = findViewById(R.id.rating_apps);
         mailControls = findViewById(R.id.mail_controls);
         checkBoxCopy = findViewById(R.id.checkbox_copy);
-        buttonSend = findViewById(R.id.button_send);
+        Button buttonSend = findViewById(R.id.button_send);
         editTextEmail = findViewById(R.id.edittext_mail);
 
         seekMap.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar bar, int progress, boolean fromUser) {
-                float scale = 0.5f + progress / 100f; // 0.5x … 1.5x
+                float scale = 1.0f + progress / 100f;
                 imageMap.setScaleX(scale);
                 imageMap.setScaleY(scale);
             }

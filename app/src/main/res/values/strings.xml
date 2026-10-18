@@ -3,4 +3,8 @@
     <string name="map">Карта</string>
     <string name="apps">Приложения</string>
     <string name="mail">Почта</string>
+    <string name="todo">TODO</string>
+    <string name="edit_email">Впишите почту</string>
+    <string name="check_email">Отправить копию себе</string>
+    <string name="button_email">Отправить</string>
 </resources>
