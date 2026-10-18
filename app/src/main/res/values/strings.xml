@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="map">Карта</string>
+    <string name="apps">Приложения</string>
+    <string name="mail">Почта</string>
+</resources>
